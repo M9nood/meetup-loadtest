@@ -7,6 +7,9 @@ function router(app) {
 
   app.get('/event', EventController.getEventHandler)
   app.post('/event', EventController.addEventHandler)
+
+
+
   
 }
 
